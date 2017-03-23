@@ -1,0 +1,9 @@
+{
+  "name": "meetup-backend",
+  "version": "0.0.1",
+  "description": "backend for the meetup clone",
+  "main": "index.js",
+  "repository": "https://github.com/rahullakhaney/meetup",
+  "author": "Rahul Lakhaney",
+  "license": "MIT"
+}

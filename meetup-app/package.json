@@ -6,8 +6,12 @@
   "private": true,
   "main": "main.js",
   "dependencies": {
+    "axios": "^0.15.3",
     "expo": "^15.0.2",
     "react": "~15.4.0",
     "react-native": "https://github.com/exponent/react-native/archive/sdk-15.0.0.tar.gz"
+  },
+  "devDependencies": {
+    "eslint-config-equimper": "^1.5.1"
   }
 }

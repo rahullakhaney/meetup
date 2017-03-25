@@ -1,6 +1,6 @@
 import mongoose, { Schema } from 'mongoose';
 
-const meetupSchema = new Schema({
+const MeetupSchema = new Schema({
   title: {
     type: String,
     required: true

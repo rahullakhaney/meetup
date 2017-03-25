@@ -2,6 +2,7 @@ import Expo from 'expo';
 import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 import Colors from './constants/Colors';
+import { HomeScreen } from './app/screens';
 
 EStyleSheet.build(Colors);
 

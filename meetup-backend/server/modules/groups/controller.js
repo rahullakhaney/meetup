@@ -65,7 +65,7 @@ export const createGroupMeetup = async (req, res) => {
   }
 
   try {
-    const [meetup, group] = await Group.addMeetup(groupId, { title, description });
+    const { meetup, group } = await Group.addMeetup(groupId, { title, description });
 
     return res.status(201).json({ error: false, meetup, group });
   } catch (e) {

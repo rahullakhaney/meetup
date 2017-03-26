@@ -5,6 +5,7 @@ import {
 } from 'react-native';
 import { MeetupApi } from '../../../constants/api';
 import { LoadingScreen } from '../../commons/';
+import { MyMeetupsList } from './components';
 import styles from './styles/HomeScreen';
 
 
@@ -33,8 +34,11 @@ class HomeScreen extends Component {
     }
     return (
       <View style={styles.root}>
-        <View>
+        <View style={styles.topContainer}>
           <Text>Home Screen</Text>
+        </View>
+        <View style={styles.bottomContainer}>
+          <MyMeetupsList meetups={this.state.meetups} />
         </View>
       </View>
     );

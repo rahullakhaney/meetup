@@ -1,10 +1,10 @@
 import Expo from 'expo';
 import React from 'react';
-import EstyleSheet from 'react-native-extended-stylesheet';
+import EStyleSheet from 'react-native-extended-stylesheet';
 import Colors from './constants/Colors';
 import { HomeScreen } from './src/screens';
 
-EstyleSheet.build(Colors);
+EStyleSheet.build(Colors);
 
 class App extends React.Component {
   render() {
